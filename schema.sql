@@ -27,6 +27,30 @@ CREATE TABLE species (
 );
 
 
+--Create vets table
+
+create table vets (
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(20),
+	age INT,
+	data_of_graduation DATE
+)
+
+--Join table -1
+
+CREATE TABLE specializations (
+    id SERIAL PRIMARY KEY,
+    vet_id INTEGER REFERENCES vets(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    species_id INTEGER REFERENCES species(id) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+--Join table -2
+CREATE TABLE visits (
+    id SERIAL PRIMARY KEY,
+    animal_id INTEGER REFERENCES animals(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    vet_id INTEGER REFERENCES vets(id) ON UPDATE CASCADE ON DELETE CASCADE,
+    visit_date DATE NOT NULL
+);
 
 
 --- Change the animals table
