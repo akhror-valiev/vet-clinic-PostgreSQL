@@ -3,6 +3,11 @@
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
+ multiple_tables
+
+
+
+ development
 <!--
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
@@ -96,8 +101,14 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
+ multiple_tables
 This repository includes files with plain SQL that can be used to recreate a database:
 
+
+
+This repository includes files with plain SQL that can be used to recreate a database:
+
+ development
 - Use [schema.sql](./schema.sql) to create all tables.
 - Use [data.sql](./data.sql) to populate tables with sample data.
 - Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
@@ -108,51 +119,35 @@ This repository includes files with plain SQL that can be used to recreate a dat
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone https://github.com/akhror-valiev/vet-clinic-PostgreSQL
 ```
---->
+  cd "to where you want to install your project"
+
+ https://github.com/akhror-valiev/vet-clinic-PostgreSQL
+```
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
 ```
---->
+npm install
+```
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
-
-```sh
-  rails server
 ```
---->
+npm start
+```
+
+
+
 
 ### Run tests
 
@@ -220,7 +215,7 @@ Feel free to check the [issues page](../../issues/).
 
 > Write a message to encourage readers to support your project
 
-If you like this project...
+Give a ⭐️ if you like this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -230,7 +225,9 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+Hat tip to anyone whose code was used
+Inspiration
+etc
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -250,11 +247,13 @@ I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+
+
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](/https://mit-license.org/) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
