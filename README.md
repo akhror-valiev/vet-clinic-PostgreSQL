@@ -3,17 +3,6 @@
 > This template should be used for database related projects at Microverse.
 > Generate your own repository, update this README and edit all files content while working on projects. You should not be adding any new files unless asked otherwise.
 
-
-## Getting Started
-
-This repository includes files with plain SQL that can be used to recreate a database:
-
-- Use [schema.sql](./schema.sql) to create all tables.
-- Use [data.sql](./data.sql) to populate tables with sample data.
-- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
-
-<a name="readme-top"></a>
-
 <!--
 HOW TO USE:
 This is an example of how you may give instructions on setting up your project locally.
@@ -35,7 +24,6 @@ REQUIRED SECTIONS:
 
 After you're finished please remove all the comments and instructions!
 -->
-
 
 <!-- TABLE OF CONTENTS -->
 
@@ -108,9 +96,13 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+This repository includes files with plain SQL that can be used to recreate a database:
 
-To get a local copy up and running, follow these steps.
+- Use [schema.sql](./schema.sql) to create all tables.
+- Use [data.sql](./data.sql) to populate tables with sample data.
+- Check [queries.sql](./queries.sql) for examples of queries that can be run on a newly created database. **Important note: this file might include queries that make changes in the database (e.g., remove records). Use them responsibly!**
+
+<a name="readme-top"></a>
 
 ### Prerequisites
 
@@ -199,7 +191,6 @@ Example:
 - GitHub: [@githubhandle](https://github.com/akhror-valiev)
 - Twitter: [@twitterhandle](https://twitter.com/oshie0115)
 - LinkedIn: [LinkedIn](kedin.com/in/oshie0115/)
-
 
 <!-- FUTURE FEATURES -->
 
