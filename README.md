@@ -100,7 +100,6 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-## Getting Started
 
 This repository includes files with plain SQL that can be used to recreate a database:
 
